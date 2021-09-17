@@ -1,5 +1,5 @@
 #Datos del alumno
-print("Nombre: Isaac Jared Reyna González \n Lugar de residencia: Rincón de Romos \n Lugar de nacimientio: Aguascalientes \n")
+print("Nombre: Isaac Jared Reyna González \n Lugar de residencia: Rincón de Romos \n Fecha de nacimientio: 05 de septiembre del 2002 \n")
 print("Color favorito: Morado \n Animal favorito: Zorro \n \n ")
 #PREGUNTAS
 print("PREGUNTAS \n")
