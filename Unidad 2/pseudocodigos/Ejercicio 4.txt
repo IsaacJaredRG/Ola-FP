@@ -1,0 +1,23 @@
+/*
+ Ejercicio 4 Tarea 2.1
+ Isaac Jared
+ ITPA
+ TICS
+
+Ejercicio 4: Hacer un programa que te pida tu nombre y apellidos por separado y que los imprima en un renglón.
+*/
+
+ Algorimo NombreYApellido;
+ VARIABLES
+    CARACTER name;
+    CARACTER apellidos;
+     
+
+ INICIO
+     ESCRIBIR ("Ingresa tu nombre");
+     LEER name;
+     ESCRIBIR ("Ingresa tus apellidos" );
+     LEER apellidos;
+     ESCRIBIR ("Tu nombre es: ", name, apellidos);
+
+ FIN

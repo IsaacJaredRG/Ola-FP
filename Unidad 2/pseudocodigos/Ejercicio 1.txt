@@ -1,0 +1,29 @@
+/*
+ Ejercicio 1 Tarea 2.1
+ Isaac Jared
+ ITPA
+ TICS
+
+ Ejercicio 1: Hacer un programa que te pida las calificaciones (5 calificaciones) y las imprima en un renglón.
+ */
+ Algorimo Calificaciones;
+ VARIABLES
+     FLOAT cal1;
+     FLOAT cal2;
+     FLOAT cal3;
+     FLOAT cal4;
+     FLOAT cal5;
+ INICIO
+     ESCRIBIR ("Dame la primera calificación");
+     LEER cal1;
+     ESCRIBIR ("Dame la segunda calificación");
+     LEER cal2;
+     ESCRIBIR ("Dame la tercera calificación");
+     LEER cal3;
+     ESCRIBIR ("Dame la cuarta calificación");
+     LEER cal4;
+     ESCRIBIR ("Dame la quinta calificación");
+     LEER cal5;
+     ESCRIBIR ("Tus calificaciones son: ", cal1, cal2, cal3, cal4, cal5);
+     
+ FIN
