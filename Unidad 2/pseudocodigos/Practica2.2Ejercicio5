@@ -1,0 +1,26 @@
+Algoritmo PersonaMayor
+	a=0;
+	b=0;
+	c=0;
+	d="";
+	e="";
+	f=0;
+	g=0
+	Escribir "Dame el numero de personas que va a registrar"
+	Leer a;
+	Mientras (b < a) Hacer
+		f=f+1;
+		Escribir "Ingrese el nombre de la persona número ", f;
+		Leer d;
+		Escribir "ingrese la edad de la persona número ", f;
+		Leer c;
+		
+		Si (c > g) Entonces
+			g=c;
+			e=d;
+		FinSi
+		b=b+1;
+	FinMientras
+	Escribir "La persona con mayor edad es ", e, " con la edad de ", g, " años"
+	
+FinAlgoritmo

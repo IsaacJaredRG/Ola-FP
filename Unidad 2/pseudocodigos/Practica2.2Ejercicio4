@@ -1,0 +1,25 @@
+Algoritmo CalificacionesReprobar
+	a=0;
+	b=0;
+	c=0;
+	d=0;
+	e=0;
+	f=0;
+	Escribir "dame la cantidad de calificaciones que vas a ingresar";
+	Leer a;
+	Mientras (b<a) Hacer
+		c=c+1
+		Escribir "ingrese la calificacion número ", c ;
+		Leer d;
+		e=e+d;
+		b=b+1;
+		
+		
+	FinMientras
+	f=e/b;
+	Si (f>=7) Entonces
+		Escribir "Felicidades, Aprobaste";
+	SiNo
+		Escribir "Lo siento, No aprobaste";
+	FinSi
+FinAlgoritmo

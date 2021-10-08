@@ -1,0 +1,25 @@
+Algoritmo CincoPeliculas
+	a="";
+	Escribir ("escoge entre estas peliculas escribiendo su numero");
+	Escribir ("1 shrek");
+	Escribir ("2 Shrek 2");
+	Escribir ("3 Shrek 3");
+	Escribir ("4 Shrek para siempre");
+	Escribir ("5 Kung fu panda ");
+	Leer a;
+	Segun a Hacer
+		"1":
+			Escribir ("shrek");
+		"2":
+			Escribir ("Shrek 2");
+		"3":
+			Escribir ("Shrek 3")
+		"4":
+			Escribir ("Shrek para siempre");
+		"5":	
+			Escribir ("Kung fu panda ");
+		De Otro Modo:
+			Escribir ("no escribiste una opción valida")
+	Fin Segun
+	
+FinAlgoritmo

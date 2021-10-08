@@ -1,0 +1,13 @@
+Algoritmo CicloNumero
+	x=0;
+	a="";
+	z=0;
+	Escribir ("dame tu nombre");
+	Leer a;
+	Escribir ("dame el numero de veces que quieres que se repita");
+	Leer x;
+	Mientras (z < x) Hacer
+		Escribir a;
+		z=z+1;
+	Fin Mientras
+FinAlgoritmo

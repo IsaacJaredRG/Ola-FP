@@ -1,0 +1,25 @@
+Algoritmo TresNumerosMayor
+	a=0;
+	b=0;
+	c=0;
+	Escribir("ingrese el primer numero");
+	Leer a;
+	Escribir("ingrese el segundo numero");
+	Leer b;
+	Escribir("ingrese el tercer numero");
+	Leer c;
+	Si (a>b) Entonces
+		si (a>c) Entonces
+			Escribir "El número ",a ," es el mayor";
+		FinSi
+	SiNo
+		Si (b>c) Entonces
+			si (b>a) Entonces
+				Escribir "El número ",b ," es el mayor";
+			FinSi
+		SiNo
+			Escribir "El número ",c ," es el mayor"
+		FinSi
+	Fin Si
+	
+FinAlgoritmo
