@@ -1,0 +1,20 @@
+Algoritmo DosPalabrasLetras
+	
+	a="";
+	b="";
+	c=0;
+	d=0;
+	
+	Escribir "dame una palabra";
+	Leer a;
+	Escribir "dame otra palabra"
+	Leer b;
+	
+	c= longitud(a);
+	d = longitud(b);
+	Si (c>d) Entonces
+		Escribir "la palabra mas larga es ", a;
+	SiNo
+		Escribir "la palabra mas larga es ", b;
+	FinSi
+FinAlgoritmo

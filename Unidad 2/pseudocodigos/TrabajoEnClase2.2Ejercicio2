@@ -1,0 +1,12 @@
+Algoritmo sin_titulo
+	
+	a=0;
+	b=0;
+	
+	Escribir "Dame el numero maximo de boletos"
+	Leer a;
+	
+	b= azar(a);
+	Escribir "El ganador es ", b;
+	
+FinAlgoritmo
