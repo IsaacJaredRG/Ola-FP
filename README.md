@@ -57,6 +57,21 @@ Con las estructuras de control se puede:
     
     -Ejecutar un grupo de sentencias hasta que se cumpla una condición (Do-Until)
 
-## Clase
+## Clase Y Objeto 
  Una clase es una plantilla para la creación de objetos de datos según un modelo predefinido.
+ 
  Las clases se utilizan para representar entidades o conceptos, como los sustantivos en el lenguaje.
+ 
+ Un objeto trata de un ente abstracto usado en programación que permite separar los diferentes componentes de un programa, simplificando así su elaboración, depuración y posteriores mejoras.
+ 
+ Ejemplos:
+ 
+     -Clase: Carro. Objeto: ferrari
+     
+     -Clase: Electrodomesticos. Objeto: Microondas.
+     
+     -Clase: Smartphone. Objeto: Xiamomi Redmi 10.
+ 
+
+ 
+ 
