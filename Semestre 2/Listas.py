@@ -1,0 +1,92 @@
+#Lista /10 arreglos 10 4/5 datos
+nombres_alumnos = ["Paola","Ulises","Donaldo","Brandon","Diego"]
+print(nombres_alumnos)
+razas_perros =["Doberman","AkitaInu", "ShibaInu","Labrador", "Electrico"]
+print(razas_perros)
+pokemons=["Charizard","Porigon","Growlight","Hitmonlee","Hitmonchan"]
+print(pokemons)
+eeveelutions=["Flareon","Umbreon","Espeon","Sylveon","Jolteon","Glaceon","Leafeon","Vaporeon"]
+print(eeveelutions)
+tipo_dragon=["Salamance","Dragonite","Axew","Zecrom"]
+print(tipo_dragon)
+tipo_planta=["Venasour","Chikorita","Snyvie","Bulbasour"]
+print(tipo_planta)
+tipo_agua=["Blastoise","Greninja","Swampert","Kingdra"]
+print(tipo_agua)
+tipo_lucha=["Hitmonlee","Hitmonchan","Lucario","Hitmontop"]
+print(tipo_lucha)
+tipo_psiquico=["Gardevoir","Ralts","Kirilia","Gothita"]
+print(tipo_psiquico)
+tipo_fuego=["Charmander","Charmeleon","Charizard","Magmotar"]
+print(tipo_fuego)
+#Diccionario /10 diccionarios
+alumnos_diccio= {
+"Nombre":"eduardo",
+"Apellidos":"Flores",
+"Edad":"31",
+"Estado":"Jalisco"
+}
+print(alumnos_diccio["Nombre"])
+alumnos_diccio2={
+   "Nombre":"Isaac",
+    "Apellidos":"Reyna",
+    "Edad":"20",
+    "Estado":"Aguascalientes" 
+}
+print(alumnos_diccio2["Apellidos"])
+alumnos_diccio3={
+   "Nombre":"Areli",
+    "Apellidos":"Sandoval",
+    "Edad":"20",
+    "Estado":"Aguascalientes" 
+}
+print(alumnos_diccio3["Estado"])
+alumnos_diccio4={
+   "Nombre":"Areli",
+    "Apellidos":"Sandoval",
+    "Edad":"20",
+    "Estado":"Aguascalientes" 
+}
+print(alumnos_diccio4["Edad"])
+pokemon_diccio={
+   "Nombre":"Magmortar",
+    "Tipo":"Fuego",
+    "Nivel":"100",
+    "Evolucion":"N/a" 
+}
+print(pokemon_diccio["Tipo"])
+pokemon_diccio2={
+   "Nombre":"Eevee",
+    "Tipo":"Normal",
+    "Nivel":"100",
+    "Evolucion":"si" 
+}
+print(pokemon_diccio2["Nombre"])
+pokemon_diccio3={
+   "Nombre":"Roggenrola",
+    "Tipo":"Roca",
+    "Nivel":"20",
+    "Evolucion":"si" 
+}
+print(pokemon_diccio3["Nivel"])
+pokemon_diccio4={
+    "Nombre":"Fletchin",
+    "Tipo":"volador, fuego",
+    "Nivel":"12",
+    "Evolucion":"si" 
+}
+print(pokemon_diccio4["Evolucion"])
+plato_diccio1={
+    "Material":"Ceramica",
+    "Color":"Blanco",
+    "Tamaño":"Grande",
+    "limpio":"si" 
+}
+print(plato_diccio1["Material"])
+plato_diccio2={
+    "Material":"Plastico",
+    "Color":"verde",
+    "Tamaño":"chiquito",
+    "limpio":"no" 
+}
+print (plato_diccio2["Color"])
